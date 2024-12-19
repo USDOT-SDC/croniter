@@ -1,22 +1,6 @@
 Introduction
 ============
 
-DISCLAIMER
-============
-
-**UNMAINTAINED/ABANDONED CODE / DO NOT USE**
-
-Due to the new EU Cyber Resilience Act (as European Union), even if it was implied because there was no more activity, this repository is now explicitly declared unmaintained.
-
-The content does not meet the new regulatory requirements and therefore cannot be deployed or distributed, especially in a European context.
-
-This repository now remains online ONLY for public archiving, documentation and education purposes and we ask everyone to respect this.
-
-As stated, the maintainers stopped development and therefore all support some time ago, and make this declaration on December 15, 2024.
-
-We may also unpublish soon (as in the following monthes) any published ressources tied to this project (pypi, the repositories, ...).
-So, please don't rely on it after March 15, 2025 and adapt whatever project which used this code.
-
 
 .. contents::
 
@@ -32,12 +16,7 @@ croniter provides iteration for the datetime object with a cron like format.
      \___|_|  \___/|_| |_|_|\__\___|_|
 
 
-Website: https://github.com/kiorky/croniter
-
-Build Badge
-===========
-.. image:: https://github.com/kiorky/croniter/actions/workflows/cicd.yml/badge.svg
-    :target: https://github.com/kiorky/croniter/actions/workflows/cicd.yml
+Website: https://github.com/USDOT-SDC/croniter
 
 
 Usage
@@ -354,7 +333,7 @@ Develop this package
 
 ::
 
-    git clone https://github.com/kiorky/croniter.git
+    git clone https://github.com/USDOT-SDC/croniter.git
     cd croniter
     virtualenv --no-site-packages venv3
     venv3/bin/pip install --upgrade -r requirements/test.txt -r requirements/lint.txt -r requirements/format.txt -r requirements/tox.txt
