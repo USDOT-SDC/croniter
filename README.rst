@@ -24,7 +24,9 @@ Usage
 
 requirements.txt::
 
-    croniter @ git+ssh://github.com/USDOT-SDC/croniter@6.0.1.dev0
+    croniter @ git+ssh://github.com/USDOT-SDC/croniter@6.0.1.dev1
+    # or
+    croniter @ git+https://github.com/USDOT-SDC/croniter@6.0.1.dev1
 
 A simple example::
 
