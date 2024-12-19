@@ -22,6 +22,10 @@ Website: https://github.com/USDOT-SDC/croniter
 Usage
 ============
 
+requirements.txt::
+    
+    croniter @ git+https://github.com/USDOT-SDC/croniter@releases/tag/6.0.1
+
 A simple example::
 
     >>> from croniter import croniter
