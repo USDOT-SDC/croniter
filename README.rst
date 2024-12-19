@@ -23,8 +23,8 @@ Usage
 ============
 
 requirements.txt::
-    
-    croniter @ git+https://github.com/USDOT-SDC/croniter@releases/tag/6.0.1
+
+    croniter @ git+ssh://github.com/USDOT-SDC/croniter@6.0.1.dev0
 
 A simple example::
 
